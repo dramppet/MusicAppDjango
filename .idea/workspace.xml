@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8efaad-3d4c-40cf-8ac4-bc3456e95dbe" name="Changes" comment="create base.html and apply template inheritance">
-      <change afterPath="$PROJECT_DIR$/albums/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albums/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/forms.py" afterDir="false" />
+    <list default="true" id="ad8efaad-3d4c-40cf-8ac4-bc3456e95dbe" name="Changes" comment="fixed home-with-profile.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/albums/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/albums/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albums/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/albums/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albums/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/albums/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albums/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/albums/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/albums/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/albums/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/album-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/album-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/album-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/album-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/album-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/album-edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home-no-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home-no-profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home-with-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home-with-profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750411634106</updated>
-      <workItem from="1750411635487" duration="10621000" />
+      <workItem from="1750411635487" duration="12265000" />
     </task>
     <task id="LOCAL-00001" summary="add static and templates files">
       <option name="closed" value="true" />
@@ -160,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750417712139</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create album and profile">
+      <option name="closed" value="true" />
+      <created>1750423755250</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750423755250</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed home-with-profile.html">
+      <option name="closed" value="true" />
+      <created>1750424022410</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750424022410</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +181,8 @@
     <MESSAGE value="add .gitignore and README.txt" />
     <MESSAGE value="add two apps, DB from apps" />
     <MESSAGE value="create base.html and apply template inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="create base.html and apply template inheritance" />
+    <MESSAGE value="create album and profile" />
+    <MESSAGE value="fixed home-with-profile.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed home-with-profile.html" />
   </component>
 </project>

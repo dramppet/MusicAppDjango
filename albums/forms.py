@@ -10,3 +10,6 @@ class AlbumBaseForm(forms.ModelForm):
 
 class AlbumCreateForm(AlbumBaseForm):
     ...
+
+class AlbumEditForm(AlbumBaseForm):
+    ...
