@@ -4,9 +4,12 @@
     <!-- Main Content -->
     <!-- Catalog with Albums-->
     <section id="catalogPage">
-
-        <!-- If albums in catalog -->
-        <h1>All Albums</h1>
+        {% if not  album_list %}
+            <p>No Albums in Catalog! </p>
+        {% else %}
+            <!-- If albums in catalog -->
+            <h1>All Albums</h1>
+        {% endif %}
         <!-- First Card-Box in catalog -->
         {% for album in album_list %}
             <div class="card-box">
@@ -24,8 +27,6 @@
                 </div>
             </div>
             <!-- End First Card-Box in catalog -->
-        {% empty %}
-            <p>No Albums in Catalog!</p>
         {% endfor %}
 
     </section>
