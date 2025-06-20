@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8efaad-3d4c-40cf-8ac4-bc3456e95dbe" name="Changes" comment="add .gitignore and README.txt">
-      <change afterPath="$PROJECT_DIR$/albums/choices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/validators.py" afterDir="false" />
+    <list default="true" id="ad8efaad-3d4c-40cf-8ac4-bc3456e95dbe" name="Changes" comment="add two apps, DB from apps">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/album-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/album-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home-with-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home-with-profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,8 @@
     "Django Server.musicApp.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "F:/SoftUni/Django/Basic/ExsamPrep/Exsam19.06.2025/musicApp",
     "node.js.detected.package.eslint": "true",
@@ -112,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750411634106</updated>
-      <workItem from="1750411635487" duration="4553000" />
+      <workItem from="1750411635487" duration="5563000" />
     </task>
     <task id="LOCAL-00001" summary="add static and templates files">
       <option name="closed" value="true" />
@@ -130,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750413989775</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add two apps, DB from apps">
+      <option name="closed" value="true" />
+      <created>1750416647118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750416647118</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add static and templates files" />
     <MESSAGE value="add .gitignore and README.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore and README.txt" />
+    <MESSAGE value="add two apps, DB from apps" />
+    <option name="LAST_COMMIT_MESSAGE" value="add two apps, DB from apps" />
   </component>
 </project>
